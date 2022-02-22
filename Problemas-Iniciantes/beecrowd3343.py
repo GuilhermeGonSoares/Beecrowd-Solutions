@@ -37,7 +37,7 @@ print(sorted([pos_pequeno_parou,pos_medio_parou,pos_grande_parou])[2] + 1)
 '''
 
 #### Nessa resolução estava dando Time limit Excessed mesmo apelando para uma busca binária
-### Era só me atentar ao fato simples que se um tita médio ja conseguiu atravessar todas as muralhas anteriores e morreu na 
+### Era só me atentar ao fato simples que se um tita médio(por exemplo, mas vale para todos) ja conseguiu atravessar todas as muralhas anteriores e morreu na 
 ### muralha k, o próximo tita medio que virá tbm ira conseguir atravessar todas as outras k-1 muralhas, logo basta verifica
 ### a partir da muralha k.
 
